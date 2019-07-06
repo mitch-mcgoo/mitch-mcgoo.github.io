@@ -2,23 +2,29 @@
   <style>
     .parallax {
       background-image: url("History_B1.jpg");
-      min-height: 500;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    body {
-      color: white;
-    }
-  </style>
-  
-  <body>
-This is to see if I can link through to this page. v1
-  </body>
-  <div class="background"></div>
-  <div style="height:1000:background-color:red;font-size:36">
-    This is a test to see if this works, I for one am unsure.
-  </div>
+      
+  /* Set a specific height */
+  min-height: 500px; 
 
-<html>
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+</body>
+</html>
