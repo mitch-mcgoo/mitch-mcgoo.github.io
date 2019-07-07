@@ -5,7 +5,7 @@
       height: 100;
     }
     
-    .bgimg1, .bgimg2 {
+    .bgimg1, .bgimg2 .bgimg3 {
       
       position: relative;
       background-attachment: fixed;
@@ -15,12 +15,17 @@
         }
       .bgimg1 {
           background-image: url("History_B1.jpg");
-          min-height: 1500;
+          min-height: 1000;
       }
       .bgimg2 {
           background-image: url("Merino_H2.jpg");
-          min-height: 1500;
+          min-height: 1000;
       }
+      .bgimg3 {
+          background-image: url("History_B3.jpg");
+          min-height: 1000;
+    }
+    
 </style>
 </head>
 <body>
@@ -28,8 +33,19 @@
 <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
     
 <div class="bgimg1">
+  <div class="caption">
+  <span class="border">SCROLL DOWN</span>
   </div>
+</div>
   <div class="bgimg2">
+    <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
+  <div class="bgimg3">
+    <div class="caption">
+  <span class="border">SCROLL DOWN</span>
     </div>
+</div>
 </body>
 </html>
